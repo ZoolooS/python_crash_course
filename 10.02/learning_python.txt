@@ -1,0 +1,5 @@
+In Python you can generate lists in one line.
+In Python you can swap variables in one line.
+In Python you don't need semicolons.
+In Python you can white programs fast.
+In Python you can reverse string/list in one line.
