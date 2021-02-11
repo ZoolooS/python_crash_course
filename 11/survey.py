@@ -5,7 +5,7 @@
 
 
 # ====== function declaration =========================== #
-class AnonimousSurvey():
+class AnonymousSurvey():
     """Сбор анонимных ответов на опросы."""
 
     def __init__(self, question):
