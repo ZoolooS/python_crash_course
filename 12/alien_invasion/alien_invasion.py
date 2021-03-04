@@ -6,6 +6,7 @@ import sys
 import pygame
 
 from settings import Settings
+from ship import Ship
 
 
 # ====== class declaration ============================== #
@@ -22,6 +23,8 @@ class AlienInvasion():
         )
         pygame.display.set_caption("Alien Invasion")
 
+        self.ship = Ship(self)
+
         # Назначение цвета фона.
         self.bg_color = (230, 230, 230)
 
@@ -36,6 +39,7 @@ class AlienInvasion():
 
             # При каждом проходе цикла экран перерисовывается.
             self.screen.fill(self.settings.bg_color)
+            self.ship.blitme()
 
             # Отображение последнего прорисованного экрана.
             pygame.display.flip()
